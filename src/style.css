@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+html, 
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #cbd5e1;
+}
+
+.header {
+    height: 80px;
+    background-color: #64748b;
+    display: grid;
+    grid-template-columns: 400px 1fr;
+
+    color: #f8fafc;
+    font-weight: 520;
+    letter-spacing: 0.08rem;
+    font-size: 1.6rem;
+}
+
+.header > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header > div:first-child {
+    border-right: solid #f8fafc 2px;
+}
+
+.header > div > button {
+    border: solid 2px #f8fafc;
+    border-radius: 16px;
+    background-color: transparent;
+
+    padding: 6px;
+
+    color: #f8fafc;
+    font-weight: 400;
+    letter-spacing: 0.08rem;
+    font-size: 1.6rem;
+
+    cursor: pointer;
+}
+
+#content {
+    width: 100%;
+    padding: 20px;
+}
